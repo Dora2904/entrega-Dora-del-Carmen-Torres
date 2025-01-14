@@ -1,0 +1,130 @@
+
+footer {
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+  
+    .negro {
+        color: #B4B7B7;
+        display: grid;
+        width: 90%;
+        margin: auto;
+        gap: 20px;
+
+        .enlaces {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            font-size: clamp(1.125rem, 0.636rem + 1.0294vw, 1.5625rem);
+
+            .first {
+                align-self: self-end;
+            }
+
+            .second {
+                align-self: center;
+                margin-top: -20px;
+            }
+
+            .third {
+                align-self: self-end;
+                #home {
+                    color: white;
+                }
+                #separado {
+                    margin-top: 20px;
+                }
+            }
+
+            .midle {
+                justify-self: center;
+            }
+
+            .forth {           
+                text-align: right;
+                align-self: self-end;
+                #numero {
+                   color: #ffff;
+                   font-size: clamp(1.6875rem, 1.1287rem + 1.1765vw, 2.1875rem);
+                }
+            }
+
+            ul {
+                li {
+                    list-style: none;
+                }
+            }
+        }
+        
+        .copy {
+            border-top: solid 2px white;
+            p {
+                margin: 20px 0;
+                text-align: center;
+                color: #ffff;
+            }
+        }
+    }
+
+    
+
+    .gris {
+        height: 300px;
+        background-color: #26282b;
+        width: 90%;
+        margin: auto;
+        transform: translateY(-50%);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 250px;
+        align-content: center;
+        
+        
+
+        #textFooter{
+        
+            color: white;
+            justify-self: center;
+            padding: 47px;
+           
+
+            span {
+                
+                color: #DF991B;
+            }
+        }
+
+        .segunda {
+            display: grid;
+            padding: 70px 120px 70px 50px;
+            gap: 20px;
+
+            input {
+                background-color: transparent;
+                border: solid 1px #7E7E7E; 
+                border-radius: 100px;
+                padding: 18px 25px;
+                color: white;
+            }
+
+            button {
+                background-color: transparent;
+                border: solid 1px #DF991B; 
+                color: #DF991B;
+                border-radius: 100px;
+                padding: 20px 20px;
+                width: 60%;
+                justify-self: end;
+
+            }
+
+            p {
+                margin-left: 25px;
+                color: white;
+            }
+        } 
+
+    }
+    
+    
+}
+

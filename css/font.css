@@ -1,0 +1,191 @@
+
+@font-face {
+    font-family: 'Brandom';
+    src: url(/font/Brandon_Grotesque.otf);
+}
+@font-face {
+    font-family: 'Regalblack';
+    src: url(/font/PFRegalDisplayPro-Bold.ttf);
+}
+@font-face {
+    font-family: 'Regalregular';
+    src: url(/font/PFRegalDisplayPro-Regular.ttf);
+}
+@font-face {
+    font-family: 'RegalREgitalic';
+    src: url(/font/PFRegalDisplayPro-Italic.ttf);
+}
+@font-face {
+    font-family: 'Regalregularbold';
+    src: url(/font/PFRegalDisplayPro-Bold.ttf);
+}
+@font-face {
+    font-family: 'Regalregularblack';
+    src: url(/font/PFRegalDisplayPro-Black.ttf);
+}
+
+/* ENCABEZADO - HEADER*/
+
+nav {
+    .links {
+        font-family:'Brandom';
+    }
+    font-size: clamp(0.625rem, 0.2757rem + 0.7353vw, 0.9375rem);
+}
+
+/* MAIN*/
+/*PRIMER CONTENIDO*/
+.firstcontent {
+
+    .search {
+        #buscador{ 
+         font-family: 'Brandom';
+         font-size: 15px;
+        }
+    }
+
+    .titulos {
+        h2 {
+            font-family: 'Regalregular';
+            font-size: clamp(1.5625rem, 1.3839rem + 0.8929vw, 2.1875rem);
+            font-weight: lighter;
+            color: #B4B7B7;
+        }
+        h3 {
+            font-family: 'Regalregular';
+            font-size: clamp(3.4375rem, 3.1696rem + 1.3393vw, 4.375rem);
+            font-weight: lighter;
+            }
+        
+        #flechablanca {
+            font-family: 'Brandom';
+            font-size: clamp(0.9375rem, 0.7589rem + 0.8929vw, 1.5625rem);
+        }
+    }
+}
+
+/* SEGUNDO CONTENIDO */
+
+.secondcontent {
+    .galeria{
+        h6 {
+            font-family: 'Regalregular';
+            font-weight: lighter;
+            font-size: clamp(0.625rem, 0.3571rem + 1.3393vw, 1.5625rem);
+        }
+        h5 {
+            font-family: 'Regalregular';
+            font-size: clamp(0.9375rem, 0.5804rem + 1.7857vw, 2.1875rem);
+        }
+       
+    }
+
+    .contenido {
+        font-family: 'Regalregular';
+
+        H6 {
+            font-size: clamp(0.9375rem, -0.8088rem + 3.6765vw, 2.5rem);
+            font-weight: lighter;
+        }
+        h5 {
+            font-size: clamp(1.25rem, -2.9412rem + 8.8235vw, 5rem);
+        }
+        p {
+            font-size: 20px;
+            font-style: italic;
+            text-align: center;
+
+        }
+
+        .botones {
+            .medio {
+                font-family: 'Brandom';
+                font-size: clamp(1.125rem, 0.636rem + 1.0294vw, 1.5625rem);
+            }
+
+        }
+    }
+}
+/* TERCER CONTENIDO*/
+.subtitulo {
+    font-family: 'Regalregular';
+    font-weight: lighter;
+    font-size: larger;
+
+    h2 {
+        font-weight: 200;
+        font-size: clamp(0.9375rem, 0.7589rem + 0.8929vw, 1.5625rem);
+    }
+    h3{
+        line-height: 45px;
+        font-size: clamp(2.1875rem, 1.7411rem + 2.2321vw, 3.75rem);
+    }
+     
+}
+
+/*CUARTO CONTENIDO*/
+.forthcontent {
+    h5 {
+        font-size: clamp(0.5rem, -0.3382rem + 1.7647vw, 1.25rem);
+        font-family: 'Regalregular';
+        font-weight: 200;
+        color: #464547
+    }
+    h4 {
+        font-size: clamp(0.9375rem, -0.4596rem + 2.9412vw, 2.1875rem);
+        font-family: 'Regalregular';
+    
+       
+    }
+}
+
+/* FOOTER */
+.gris {
+    #textFooter {
+        font-size: clamp(1.25rem, -1.5441rem + 5.8824vw, 3.75rem);
+        font-family: 'Regalregular';
+
+        span {
+            font-size: clamp(0.9375rem, -0.8088rem + 3.6765vw, 2.5rem);
+            font-family: 'Regalregular';
+        }
+    }
+    .segunda {
+        font-family: 'Brandom';
+
+        input {
+            font-size: clamp(0.5rem, 0.011rem + 1.0294vw, 0.9375rem);
+        }
+        
+        button {
+            font-size: clamp(0.8125rem, 0.3235rem + 1.0294vw, 1.25rem);
+        }
+
+        p{
+            font-size: clamp(1.0625rem, 0.5037rem + 1.1765vw, 1.5625rem);
+        }
+    }
+}
+.negro {
+    .first {
+        font-family: 'Brandom';
+    }
+
+    .second {
+        font-family: 'Brandom';
+    }
+
+    .third {
+        font-family: 'Brandom';
+    }
+
+    .forth {
+        font-family: 'Regalregular';
+           
+           
+    }
+}
+
+
+
+
