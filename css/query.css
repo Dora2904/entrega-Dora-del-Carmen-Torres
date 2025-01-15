@@ -108,23 +108,13 @@ body {
     
   /*SEGUNDO CONTENIDO*/
     .secondcontent {
-        grid-template-columns: 1fr 1fr;
-
-        .firstpic {
-            display: none;
-        }
-
-        .secondpic {
-            grid-column: span 2;
-        }
-       
-      
+        grid-template-columns: 1fr;
         .galeria {
-            grid-column: span 2;
             
             .txtpropiety {
-              display: none;
-                }
+                display: none;
+            }
+
         }
 
         .contenido {
