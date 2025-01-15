@@ -122,7 +122,7 @@ body {
         .galeria {
             grid-column: span 2;
             
-            .textos {
+            .txtpropiety {
               display: none;
                 }
         }
